@@ -416,3 +416,8 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Mac files
+.DS_Store
+.AppleDouble
+.LSOverride
