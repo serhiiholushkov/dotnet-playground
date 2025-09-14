@@ -15,6 +15,7 @@ public class BasicLocking
 
     class ThreadSafe
     {
+        // A new lock class is introduced in C# 13.0 (dotnet 9)
         static readonly Lock _lock = new();
         static int _val1 = 2, _val2 = 1;
 
