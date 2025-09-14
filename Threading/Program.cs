@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+Console.WriteLine("Starting Threading/BasicLocking");
+BasicLocking.Main();
+Console.WriteLine("Finished Threading/BasicLocking");
+Console.ReadKey();
