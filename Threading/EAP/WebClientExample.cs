@@ -3,7 +3,7 @@ using System.Net;
 
 public class WebClientExample
 {
-    public static void Main()
+    public static void Run()
     {
         // WebClient is obsolete, but this is just an example of EAP pattern
         // Because newer HttpClient does not support EAP it is task-based
